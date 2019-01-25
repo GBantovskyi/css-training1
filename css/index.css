@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+:root {
+    font-family: "Major Mono Display", monospace;
+}
+
+h1 {
+    color:red;
+    background-color:#0293f4;
+}
+
+p {
+    color:yellow;
+    border: 1px solid black;
+}
+.chosen {
+    color: green;
+}
+#neo {
+    color: orange;
+}
+
+div p {
+    background-color:grey;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+p:hover {
+    font-style: italic;
+}
+
+
